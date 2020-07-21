@@ -1,0 +1,231 @@
+            /* reset css */
+            
+            html,
+            body,
+            div,
+            span,
+            applet,
+            object,
+            iframe,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6,
+            p,
+            blockquote,
+            pre,
+            a,
+            abbr,
+            acronym,
+            address,
+            big,
+            cite,
+            code,
+            del,
+            dfn,
+            em,
+            img,
+            ins,
+            kbd,
+            q,
+            s,
+            samp,
+            small,
+            strike,
+            strong,
+            sub,
+            sup,
+            tt,
+            var,
+            /* b, */
+            
+            u,
+            i,
+            center,
+            dl,
+            dt,
+            dd,
+            ol,
+            ul,
+            li,
+            fieldset,
+            form,
+            label,
+            legend,
+            table,
+            caption,
+            tbody,
+            tfoot,
+            thead,
+            tr,
+            th,
+            td,
+            article,
+            aside,
+            canvas,
+            details,
+            embed,
+            figure,
+            figcaption,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            output,
+            ruby,
+            section,
+            summary,
+            time,
+            mark,
+            audio,
+            video {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+                vertical-align: baseline;
+            }
+            /* HTML5 display-role reset */
+            
+            article,
+            aside,
+            details,
+            figcaption,
+            figure,
+            footer,
+            header,
+            hgroup,
+            menu,
+            nav,
+            section {
+                display: block;
+            }
+            /* every element is a border-box */
+            
+            * {
+                box-sizing: border-box;
+            }
+            
+            html,
+            body {
+                height: 100%;
+                font-family: 'Titillium Web', sans-serif;
+            }
+            
+            h1 {
+                letter-spacing: 1px;
+                margin-bottom: 15px;
+            }
+            
+            body {
+                width: 90%;
+                margin: auto;
+            }
+            
+            header {
+                text-align: center;
+            }
+            
+            p {
+                text-align: center;
+            }
+            
+            img {
+                width: 100%;
+            }
+            
+            .navbar {
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                padding: 1%;
+                width: 100%;
+                text-align: center;
+                padding: 1rem;
+            }
+            
+            a {
+                text-decoration: none;
+                margin: 0 5%;
+                padding: 1rem;
+                border-radius: 2.5rem;
+                color: white;
+            }
+            
+            #plan {
+                border: 1px solid #FF764E;
+                background-color: #FF764E;
+            }
+            
+            #learn {
+                border: 1px solid #5ED3EB;
+                background-color: #5ED3EB;
+            }
+            
+            #get {
+                border: 1px solid #FFCD69;
+                background-color: #FFCD69;
+            }
+            
+            .main {
+                margin: 1%;
+                width: 100%;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .text {
+                font-size: 1.2rem;
+            }
+            
+            .content {
+                display: inline-block;
+            }
+            
+            .picture {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 1%;
+                width: 48%;
+                min-width: 250px;
+            }
+            
+            .img1 {
+                border-radius: 50rem;
+                max-width: 25rem;
+            }
+            
+            .firstparagraphs {
+                background-color: #DDB9A3;
+                margin: 5rem;
+                color: white;
+                padding: 0.75rem 2rem;
+            }
+            
+            .main-body {
+                text-align: center;
+                max-width: 25rem;
+                margin: 0 auto;
+            }
+            
+            .main-body-text {
+                padding: 2rem;
+            }
+            
+            .img2 {
+                max-width: 20rem;
+            }
+            
+            .img3 {
+                max-width: 20rem;
+            }
+            
+            footer {
+                background-color: #F9E7DC;
+                padding-bottom: 1.5rem;
+            }
